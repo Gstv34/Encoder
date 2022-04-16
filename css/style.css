@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins&display=swap');
+
+body{
+    background-color: #E0E0E0;
+}
+.main{
+    padding-left: 3rem;
+}
+#txtArea-main{
+font-family: 'Poppins', sans-serif;
+color: #595959;
+position: relative;
+top: 5rem;
+left: 6rem;
+width: 525px;
+height: 426px;
+padding: 3rem 3rem 0 4.5rem;
+outline: none;
+font-size: 24px;
+letter-spacing: 3px;
+opacity: 80%;
+border-color: #E5E8EF;
+border: none;
+border-radius: 30px;
+background: #E5E8EF;
+box-shadow: inset 20px 20px 60px #bebebe,
+           inset -20px -20px 60px #ffffff;
+}
+
+.Encode{
+    outline: none;    
+border-color: #e0e0e0;
+border-radius: 44px;
+box-shadow:  12px 12px 20px #bebebe,
+             -12px -12px 20px #ffffff;
+}
+.Decode{
+    outline: none;
+border-radius: 44px;
+box-shadow: inset 4px 4px 10px #bebebe, 
+                inset 0px 4px 4px #808B9F;
+filter: drop-shadow(-12px -12px 15px #bebebe) 
+        drop-shadow(12px 12px 15px #e0e0e0);
+}
+
+#enc{
+color: #83DBD6;   
+font-family: 'Poppins', sans-serif; 
+font-size: 20px;
+position: absolute;
+width: 206px;
+height: 50px;
+left: 215px;
+top: 590px;
+background: #e0e0e0;
+}
+
+#dec{
+color: #728AB7; 
+font-family: 'Poppins', sans-serif;   
+font-size: 20px;
+position: absolute;
+width: 206px;
+height: 50px;
+left: 463px;
+top: 590px;
+border-color: #e0e0e0;
+}
+.container{
+position: absolute;
+width: 342px;
+height: 565px;
+left: 829px;
+top: 50px;
+display: grid;
+grid-template-rows: 10px,repeat(2,1fr);
+border-radius: 50px;
+background: #e0e0e0;
+box-shadow:  10px 10px 20px #bebebe,
+             -10px -10px 20px #ffffff;
+}
+h3{
+font-family: 'Hammersmith One', sans-serif;
+color: #595959;
+opacity: 80%;
+text-align: center;
+margin: unset;
+padding-top: 19px;
+}
+
+#txtArea-sec{
+font-family: 'Poppins', sans-serif;
+color: #595959;
+padding: 0 3rem 0 3rem; 
+border: none;
+outline: none;
+background-color: transparent
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+#logo{
+    position: absolute;
+    padding-top: 1rem;
+    width: 4rem;
+    height: 4rem;
+}

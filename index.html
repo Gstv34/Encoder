@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <title>Codificador - Decodificador </title>
+</head>
+<body>
+<div class="main">
+    <img id="logo" src="./public/G.svg" alt="">
+    <textarea id="txtArea-main" cols="5" rows="4" placeholder="Ingrese su texto aquí ..." onkeyup="hiddeIlust()"></textarea>
+    
+    <div class="boton-container">
+    <button class="Encode" id="enc">Codificar</button>
+    <button class="Encode" id="dec">Decodificar</button>
+    </div>
+
+    <div class="container">
+        <h3>Texto encriptado:</h3>
+        <textarea id="txtArea-sec" cols="5" rows="4"></textarea>
+        <img src="./public/Ilustración.svg" alt="" id="ilustration">
+    </div>
+
+</div>
+    
+</body>
+<script src="./js/encode.js"></script>
+<script src="./js/decode.js"></script>
+<script src="./js/state.js"></script>
+</html>
