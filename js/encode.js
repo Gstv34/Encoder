@@ -8,8 +8,10 @@ const dictionary = {
     "o" : "ober",
     "u" : "ufat"    };
 
-var buton = document.getElementById("enc");
-buton.addEventListener('click', function encode(){
+var btnEncode = document.getElementById("enc");
+btnEncode.addEventListener('click', function encode(){
+if(area.value != ""){
+    stateEnc();
 
     var text = area.value;
     var queue = ""; var flag;
@@ -29,7 +31,9 @@ buton.addEventListener('click', function encode(){
            
     } 
     solution.textContent = queue;
-    
+}else{
+    alert('Introduzca un mensaje a encriptar antes');
+}
 });
 
 
