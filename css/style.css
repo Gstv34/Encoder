@@ -3,8 +3,14 @@
 body{
     background-color: #E0E0E0;
 }
-.main{
-    padding-left: 3rem;
+
+main{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 #txtArea-main{
 font: 24px 'Poppins', sans-serif;
@@ -50,20 +56,19 @@ font-size: 20px;
 position: absolute;
 width: 206px;
 height: 50px;
-left: 230px;
+left: 204px;
 top: 590px;
 background: transparent;
 }
 
-#dec{
- 
+#dec{ 
 font-family: 'Poppins', sans-serif;   
 font-weight: 300;
 font-size: 20px;
 position: absolute;
 width: 206px;
 height: 50px;
-left: 505px;
+left: 490px;
 top: 590px;
 background: transparent;
 }
@@ -142,4 +147,95 @@ img{
     padding-top: 1rem;
     width: 4rem;
     height: 4rem;
+}
+@media screen and (max-width: 412px) and (max-height: 914px){
+    
+    #logo{
+        position: absolute;
+        padding-top: 1rem;
+        width: 2.8rem;
+        height: 2.8rem;
+    }
+    #txtArea-main{
+        font: 18px 'Poppins', sans-serif;
+        position: relative;
+        top: 5rem;
+        left: 1rem;
+        width: 269px;
+        height: 256px;
+        padding: 3rem 3rem 0 3rem;
+        letter-spacing: 2px;
+    }
+    #enc{    
+        font-size: 14px;
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        left: 60px;
+        top: 410px;
+    }
+    #dec{ 
+        font-family: 'Poppins', sans-serif;   
+        font-weight: 300;
+        font-size: 14px;
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        left: 225px;
+        top: 413px;
+    }
+    .container{
+        position: absolute;
+        height: 390px;
+        left: 2.2rem;
+        top: 500px;
+    }
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+    }
+
+}
+@media screen and (max-width: 375px) and (max-height: 667px){
+
+    #txtArea-main{
+        font: 18px 'Poppins', sans-serif;
+        position: relative;
+        top: 5.1rem;
+        left: 1rem;
+        width: 230px;
+        height: 256px;
+        padding: 3rem 3rem 0 3rem;
+        letter-spacing: 2px;
+    }
+    #enc{    
+        font-size: 14px;
+        position: absolute;
+        width: 120px;
+        height: 50px;
+        left: 48px;
+        top: 410px;
+    }
+    #dec{ 
+        font-family: 'Poppins', sans-serif;   
+        font-weight: 300;
+        font-size: 14px;
+        position: absolute;
+        width: 120px;
+        height: 47px;
+        left: 212px;
+        top: 413px;
+    }
+    .container{
+        position: absolute;
+        height: 320px;
+        left: 1rem;
+        top: 490px;
+    }
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+    }
 }

@@ -9,23 +9,25 @@
     <title>Codificador - Decodificador </title>
 </head>
 <body>
-<div class="main">
-    <img id="logo" src="./public/G.svg" alt="">
-    <textarea id="txtArea-main" cols="5" rows="4" placeholder="Ingrese su texto aquí ..." onkeyup="hiddeIlust()"></textarea>
+    <header>
+        <img id="logo" src="./public/G.svg" alt="">
+    </header>
+
+    <main>
+        <textarea id="txtArea-main" cols="5" rows="4" placeholder="Ingrese su texto aquí ..." onkeyup="hiddeIlust()"></textarea>
     
-    <div class="boton-container">
-    <button class="Encode" id="enc">Encriptar</button>
-    <button class="Decode" id="dec">Desencriptar</button>
-    </div>
-
-    <div class="container">
-        <h3>Texto encriptado:</h3>
-        <textarea id="txtArea-sec" cols="5" rows="4"></textarea>
-        <img src="./public/Ilustración.svg" alt="" id="ilustration">
-        <input type="checkbox" title="Copiar" id="check">
-    </div>
-
-</div>
+        <div class="boton-container">
+        <button class="Encode" id="enc">Encriptar</button>
+        <button class="Decode" id="dec">Desencriptar</button>
+        </div>
+    
+        <div class="container">
+            <h3>Texto encriptado:</h3>
+            <textarea id="txtArea-sec" cols="5" rows="4"></textarea>
+            <img src="./public/Ilustración.svg" alt="" id="ilustration">
+            <input type="checkbox" title="Copiar" id="check">
+        </div>
+    </main>
     
 </body>
 <script src="./js/encode.js"></script>
