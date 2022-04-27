@@ -1,12 +1,12 @@
 # Encriptador de texto
 
 Pequeño encriptador de texto correspondiente a Sprint 01: Challenge Oracle One con UI inspirada en Neumorphism Design.
-<div>
-<br> 
+<br>
 <p style = 'text-align:center;'>
-<img src="./public/Encore.svg" alt="encoder" width="450px" border-radius="30%">
+<a href="https://gztv.github.io/encoder/">
+  <img width="400px" src="./public/Encore.svg" alt="encoder">
+</a>
 </p>
-</div>
 
 ## Cifrado
 El cifrado de cada palabra corresponde a distintas equivalencias para cada vocal.
